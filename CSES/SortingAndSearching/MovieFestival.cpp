@@ -22,8 +22,8 @@ void solve() {
     });
 
     int last = vp[0].second;
-    int ans = 1;
-
+    int ans = 1
+;
     for (int i = 1; i < n; i++) {
         if (vp[i].first >= last) {
             ans++;
